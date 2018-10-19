@@ -5,7 +5,9 @@ _by Laura Arias_
 
 #### **If you DO NOT have a cloud9 or github account:**
 
-1. Go to [github](https://github.com/) and click "Get started with AWS cloud9"
+1. Go to [github](https://github.com/) and click "sign up" 
+2. Once you have your github account, go to [cloud9](https://c9.io/login) and click the octocat. And there, you have signed up for cloud 9 using your github accout.  
+
 
 
 
