@@ -102,8 +102,8 @@ In the previous section we talked about...
 2. Git Status 
 2. Git commit 
 
-But now...how to we push our code and work onto the repository in github? 
-I got you, you use: 
+But now...how do we push our code and work onto the repository in github?  
+ I got you, you use: 
 
 **git push:** sends your commit from our c9 repository to the repo in github.  
 
