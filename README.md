@@ -7,7 +7,11 @@ _by Laura Arias_
 
 1. Go to [github](https://github.com/) and click "sign up" 
 2. Once you have your github account, go to [cloud9](https://c9.io/login) and click the [octocat](https://preview.c9users.io/laura5a/github-learning/github-tutorial/Screen%20Shot%202018-10-19%20at%209.31.05%20AM.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io). And there, you have signed up for cloud 9 using your github accout.  
-
+3. Now go to the addition icon next to your profile and click "New Repository"
+4. After doing so, give it a name and click create 
+5. It will take you to a page with code in it, on the top it will have the options for HTTPS and SSH. Pick the one that says SSH. 
+6. Copy the code you see and paste it into your command line. 
+7. Boom! New repository
 
 
 
@@ -71,6 +75,22 @@ After that, you should see a README file in your repo.
     
 After that, go to your command line and type git status, the README file should be red. 
 
+Now, in the command line, type **git add** 
+**gti add:** adds the changed you made in your file into git 
+
+Now if you do git status again, you should see the readme file as green. 
+
+~(^^)~ almost done! 
+    Now you have to commit it. 
+     **what do i mean by commiting?** 
+        Well, you have to commit your changes. You have already added your changes into git, now you have to store it. 
+        You do so by doing this command. 
+            **git commit -m "short-message":** stores the content of your changes into git and leaves a message you wrote that would typically say what you did.  
+            
+            In github, you already made a repo, all you have to do now is connect the repo there to the repo here. 
+            That is called a **remote** 
+                **Remote:** setting up the connection between current repo to an external one (setting up a bridge)
+  
 
 ---
 ## Workflow & Commands
