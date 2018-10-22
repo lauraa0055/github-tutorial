@@ -80,16 +80,16 @@ Now, in the command line, type **git add**
 
 Now if you do git status again, you should see the readme file as green. 
 
-~(^^)~ almost done! 
+(^^) almost done! 
     Now you have to commit it. 
      **what do i mean by commiting?** 
         Well, you have to commit your changes. You have already added your changes into git, now you have to store it. 
         You do so by doing this command. 
-            **git commit -m "short-message":** stores the content of your changes into git and leaves a message you wrote that would typically say what you did.  
+             **git commit -m "short-message":** stores the content of your changes into git and leaves a message you wrote that would typically say what you did.   
             
-            In github, you already made a repo, all you have to do now is connect the repo there to the repo here. 
-            That is called a **remote** 
-                **Remote:** setting up the connection between current repo to an external one (setting up a bridge)
+            In github, you already made a repo, all you have to do now is connect the repo there to the repo here.  
+             That is called a **remote**  
+                 **Remote:** setting up the connection between current repo to an external one (setting up a bridge)
   
 
 ---
