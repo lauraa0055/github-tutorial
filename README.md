@@ -6,7 +6,7 @@ _by Laura Arias_
 #### **If you DO NOT have a cloud9 or github account:**
 
 1. Go to [github](https://github.com/) and click "sign up" 
-2. Once you have your github account, go to [cloud9](https://c9.io/login) and click the [octocat](https://github.com/lauraa0055/github-tutorial/blob/master/Screen%20Shot%202018-10-19%20at%209.31.05%20AM.png). And there, you have signed up for cloud 9 using your github accout.  
+2. Once you have your github account, go to [cloud9](https://c9.io/login) and click the [octocat](https://preview.c9users.io/laura5a/github-learning/github-tutorial/Screen%20Shot%202018-10-19%20at%209.31.05%20AM.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io). And there, you have signed up for cloud 9 using your github accout.  
 
 
 
