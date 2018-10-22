@@ -115,3 +115,40 @@ I got you, you use:
 
 ---
 ## Rolling Back Changes
+
+Unfortunetly, humans are not perfect. We all make mistakes. 
+ So what happens when we add something we didn't mean to add? 
+  or if we commit something we didn't mean to commit? 
+   well, you can't fix those errors....just kidding! 
+    This is how you can fix your changes regardless if you added or push them. 
+    
+0. I accidently edited something: 
+You can just delete it but if you did a lot of edits, here's the easy way out;
+
+``` git checkout -- <file>```
+
+1. I added something by accident: 
+In the command line, it will tell you what to do if you wish to undo an add. 
+which is... 
+
+```git reset HEAD <file>```
+
+2. I accidently did a commit: 
+oof, should have been careful. 
+
+```git reset --soft HEAD~1```
+
+3. Use this if you wanna go way back. When you want to __undo commit and add:__
+
+```git reset HEAD~1``
+
+4. Use this when you wanna basically restart everything. When you want to __undo commits and edits:__
+5. 
+
+```git reset --hard HEAD~1```
+
+
+
+
+
+
