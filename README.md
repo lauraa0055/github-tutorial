@@ -71,31 +71,40 @@ So in that case, let's make some content!
 After that, you should see a README file in your repo.  
     [Like this](https://preview.c9users.io/laura5a/github-learning/github-tutorial/Screen%20Shot%202018-10-22%20at%209.38.44%20AM.png?_c9_id=livepreview2&_c9_host=https://ide.c9.io)
     
-    Now that you have your new README file, open it by double clicking on it and type something inside. 
+Now that you have your new README file, open it by double clicking on it and type something inside. 
     
 After that, go to your command line and type git status, the README file should be red. 
 
 Now, in the command line, type **git add** 
-**gti add:** adds the changed you made in your file into git 
+**git add:** adds the changed you made in your file into git 
 
 Now if you do git status again, you should see the readme file as green. 
 
-(^^) almost done! 
+Almost done! 
     Now you have to commit it. 
-     **what do i mean by commiting?** 
-        Well, you have to commit your changes. You have already added your changes into git, now you have to store it. 
-        You do so by doing this command. 
-             **git commit -m "short-message":** stores the content of your changes into git and leaves a message you wrote that would typically say what you did.   
-            
-            In github, you already made a repo, all you have to do now is connect the repo there to the repo here.  
-             That is called a **remote**  
-                 **Remote:** setting up the connection between current repo to an external one (setting up a bridge)
+    
+**what do i mean by commiting?** 
+Well, you have to commit your changes. You have already added your changes into git, now you have to store it. 
+You do so by doing this commassnd. 
+        
+**git commit -m "short-message":** stores the content of your changes into git and leaves a message you wrote that would typically say what you did.     
+In github, you already made a repo, all you have to do now is connect the repo there to the repo here.  
+That is called a **remote**  
+        
+ **Remote:** setting up the connection between current repo to an external one (setting up a bridge)
   
 
 ---
 ## Workflow & Commands
 
+In the previous section we talked about...
+1. Git add 
+2. Git Status 
+2. Git commit 
 
+But now...how to we push our code and work onto the repository in github? 
+I got you, you use: 
 
+**git push:** 
 ---
 ## Rolling Back Changes
