@@ -109,7 +109,7 @@ I got you, you use:
 
  Although, if you are doing the push for the first time, you must do: 
  
- **git push -u origin master:** 
+ **git push -u origin master:**  
   That "-u" means "upstream". In english language, it will remember which repository in github to push all this code/work into.
   
 
@@ -140,10 +140,9 @@ oof, should have been careful.
 
 3. Use this if you wanna go way back. When you want to __undo commit and add:__
 
-```git reset HEAD~1``
+```git reset HEAD~1```
 
 4. Use this when you wanna basically restart everything. When you want to __undo commits and edits:__
-5. 
 
 ```git reset --hard HEAD~1```
 
