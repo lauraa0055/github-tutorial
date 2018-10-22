@@ -75,16 +75,16 @@ Now that you have your new README file, open it by double clicking on it and typ
     
 After that, go to your command line and type git status, the README file should be red. 
 
-Now, in the command line, type **git add** 
-**git add:** adds the changed you made in your file into git 
+Now, in the command line, type **git add**  
+ **git add:** adds the changed you made in your file into git 
 
 Now if you do git status again, you should see the readme file as green. 
 
 Almost done! 
     Now you have to commit it. 
     
-**what do i mean by commiting?** 
-Well, you have to commit your changes. You have already added your changes into git, now you have to store it. 
+**what do i mean by commiting?**  
+ Well, you have to commit your changes. You have already added your changes into git, now you have to store it. 
 You do so by doing this commassnd. 
         
 **git commit -m "short-message":** stores the content of your changes into git and leaves a message you wrote that would typically say what you did.     
