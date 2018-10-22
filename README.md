@@ -105,6 +105,13 @@ In the previous section we talked about...
 But now...how to we push our code and work onto the repository in github? 
 I got you, you use: 
 
-**git push:** 
+**git push:** sends your commit from our c9 repository to the repo in github.  
+
+ Although, if you are doing the push for the first time, you must do: 
+ 
+ **git push -u origin master:** 
+  That "-u" means "upstream". In english language, it will remember which repository in github to push all this code/work into.
+  
+
 ---
 ## Rolling Back Changes
