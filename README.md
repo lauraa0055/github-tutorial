@@ -67,6 +67,10 @@ So in that case, let's make some content!
 After that, you should see a README file in your repo.  
     [Like this](https://preview.c9users.io/laura5a/github-learning/github-tutorial/Screen%20Shot%202018-10-22%20at%209.38.44%20AM.png?_c9_id=livepreview2&_c9_host=https://ide.c9.io)
     
+    Now that you have your new README file, open it by double clicking on it and type something inside. 
+    
+After that, go to your command line and type git status, the README file should be red. 
+
 
 ---
 ## Workflow & Commands
