@@ -165,22 +165,22 @@ oof, should have been careful.
 
 ## Other command line functions that are important!!
 
-***pwd*** 
+***pwd***  
  It stands for "print working directory", all it does is show you all of the directories
 
- ***ls*** 
+ ***ls***  
   This function lists all of the things in the directories
   
-  ***cd***
+  ***cd*** 
   It changes your directories 
    
-  **mkdir** 
+  **mkdir**  
   Makes a new directory 
   
-  **rmmdir**  
+  **rmmdir**   
   removes a directory 
  
- **mv***  
+ **mv**   
  it renames a file and moves a file as well.  
  So like, if you have a file names "bubbles", you can use "mv" to rename it to anything else like "sour".  
 Although, you have to make sure that the new name isn't already used.  
