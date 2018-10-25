@@ -163,7 +163,7 @@ oof, should have been careful.
 
 
 
-##Other command line functions that are important!!
+## Other command line functions that are important!!
 
 ***pwd*** 
  It stands for "print working directory", all it does is show you all of the directories
@@ -174,17 +174,17 @@ oof, should have been careful.
   ***cd***
   It changes your directories 
    
-  ***mkdir**
+  **mkdir** 
   Makes a new directory 
   
-  ***rmmdir** 
+  **rmmdir**  
   removes a directory 
  
- ***mv*** 
- it renames a file and moves a file as well. 
- So like, if you have a file names "bubbles", you can use "mv" to rename it to anything else like "sour". 
-Although, you have to make sure that the new name isn't already used. 
-If you want to move it, just name the file you want to move and then put the name of the file you woukd to move it to. 
+ **mv***  
+ it renames a file and moves a file as well.  
+ So like, if you have a file names "bubbles", you can use "mv" to rename it to anything else like "sour".  
+Although, you have to make sure that the new name isn't already used.  
+If you want to move it, just name the file you want to move and then put the name of the file you woukd to move it to.  
 exp: ```mv bubbles sour```
 
 
