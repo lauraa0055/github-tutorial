@@ -171,22 +171,21 @@ oof, should have been careful.
  ***ls*** 
   This function lists all of the things in the directories
   
-   ***cd***
-   It changes your directories 
+  ***cd***
+  It changes your directories 
    
-    ***mkdir**
-     Makes a new directory 
-     
-      ***rmmdir** 
-       removes a directory 
-       
-        ***mv*** 
-         it renames a file and moves a file as well.
-         So like, if you have a file names "bubbles", you can use "mv" to rename it to anything else like "sour". 
-          Although, you have to make sure that the new name isn't already used. 
-           If you want to move it, just name the file you want to move and then put the name of the file you woukd to move it to. 
-            exp: ```mv bubbles sour```
-            
-            
+  ***mkdir**
+  Makes a new directory 
+  
+  ***rmmdir** 
+  removes a directory 
+ 
+ ***mv*** 
+ it renames a file and moves a file as well. 
+ So like, if you have a file names "bubbles", you can use "mv" to rename it to anything else like "sour". 
+Although, you have to make sure that the new name isn't already used. 
+If you want to move it, just name the file you want to move and then put the name of the file you woukd to move it to. 
+exp: ```mv bubbles sour```
+
 
 
