@@ -56,7 +56,7 @@ You see how infront of the filename it says "(master)". That means that file is 
 **Repository:** a foldier that has git in it (can also be called a repo)
 
 **IF YOU INITIZALIZED GIT IN WORKSPACE:** use this! 
- rm --chached <file> 
+ ```rm --cached <file>``` 
  
   Although, if you want to forcefully delete a file that has git in it, use: rm -rf .git 
 
