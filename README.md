@@ -102,8 +102,8 @@ You do so by doing this command.
  "git remote rm origin"
  
  One more thing, you somehow get into this [screen](https://preview.c9users.io/laura5a/github-learning/github-tutorial/Screen%20Shot%202018-10-25%20at%204.11.13%20PM.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
- just do "control x" 
-  That happens when you only type "git commit" and not a message afterwards 
+ just do "control x".  
+   That happens when you only type "git commit" and not a message afterwards 
   
 
 ---
@@ -163,6 +163,30 @@ oof, should have been careful.
 
 
 
+##Other command line functions that are important!!
 
+***pwd*** 
+ It stands for "print working directory", all it does is show you all of the directories
+
+ ***ls*** 
+  This function lists all of the things in the directories
+  
+   ***cd***
+   It changes your directories 
+   
+    ***mkdir**
+     Makes a new directory 
+     
+      ***rmmdir** 
+       removes a directory 
+       
+        ***mv*** 
+         it renames a file and moves a file as well.
+         So like, if you have a file names "bubbles", you can use "mv" to rename it to anything else like "sour". 
+          Although, you have to make sure that the new name isn't already used. 
+           If you want to move it, just name the file you want to move and then put the name of the file you woukd to move it to. 
+            exp: ```mv bubbles sour```
+            
+            
 
 
