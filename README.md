@@ -55,6 +55,11 @@ laura5a:~/workspace/filename (master) $
 You see how infront of the filename it says "(master)". That means that file is now a **repository**. 
 **Repository:** a foldier that has git in it (can also be called a repo)
 
+**IF YOU INITIZALIZED GIT IN WORKSPACE:** use this! 
+ rm --chached <file> 
+ 
+  Although, if you want to forcefully delete a file that has git in it, use: rm -rf .git 
+
 **So what now?** 
     Well, now you have a repository. So let's **add** something to it. 
     
@@ -76,7 +81,7 @@ Now that you have your new README file, open it by double clicking on it and typ
 After that, go to your command line and type git status, the README file should be red. 
 
 Now, in the command line, type **git add**  
- **git add:** adds the changed you made in your file into git 
+ **git add:** adds the changes you made in your file into git 
 
 Now if you do git status again, you should see the readme file as green. 
 
@@ -85,13 +90,20 @@ Almost done!
     
 **what do i mean by commiting?**  
  Well, you have to commit your changes. You have already added your changes into git, now you have to store it. 
-You do so by doing this commassnd. 
+You do so by doing this command. 
         
-**git commit -m "short-message":** stores the content of your changes into git and leaves a message you wrote that would typically say what you did.     
-In github, you already made a repo, all you have to do now is connect the repo there to the repo here.  
-That is called a **remote**  
+**git commit -m "short-message":** takes a "snapshot" (basically record the changes) of the file saved and leaves a short message saying what is that has been changed. 
+ In github, you already made a repo, all you have to do now is connect the repo there to the repo here. 
+ That is called a **remote**  
         
  **Remote:** setting up the connection between current repo to an external one (setting up a bridge)
+ 
+ If for some reason, you feel the need to delete/get rid of the remote, use 
+ "git remote rm origin"
+ 
+ One more thing, you somehow get into this [screen](https://preview.c9users.io/laura5a/github-learning/github-tutorial/Screen%20Shot%202018-10-25%20at%204.11.13%20PM.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
+ just do "control x" 
+  That happens when you only type "git commit" and not a message afterwards 
   
 
 ---
@@ -111,6 +123,9 @@ But now...how do we push our code and work onto the repository in github?
  
  **git push -u origin master:**  
   That "-u" means "upstream". In english language, it will remember which repository in github to push all this code/work into.
+   If you at some point forgot where all the code us pushed into, use 
+   ```Git remote -v``
+   It will where it will push the remote 
   
 
 ---
